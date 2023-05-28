@@ -5,61 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuentacuentos - terror</title>
-    <style>
-        body{
-            background-image: url(https://e0.pxfuel.com/wallpapers/48/233/desktop-wallpaper-very-scary-horror-w12-dark-night-horror.jpg);
-            background-repeat: no-repeat;
-            background-size:cover;
-        }
-    </style>
+    <link rel="stylesheet" href="../styles/selection-styles.css">
 </head>
 <body>
         <!--el fondo utilizado está sujeto a cambios-->
     <header>
-        <div style="width: 100%; height:250px; color: #fafafa; border: 2px solid; text-align: center;"> Imagen hero</div>
+        <div class = "hero"> <a href="#">Imagen Hero</a></div>
     </header>
 
     <nav>
-        <div style="width: 100%; height:50px; background-color: #A9A9A9; border: 2px solid; text-align: center; font-weight: bold;"> Navbar
+        <div class= "nav-container"> Navbar
             <!-- Este input iría a la derecha -->
-        <input type="text" id="search" placeholder="Buscar...">
+        <input type="text" class="search" placeholder="Buscar...">
         </div>  
     </nav>
     
     <main>    
-        <h1 style="color: #fafafa; text-align: center;">HISTORIAS DE TERROR</h1>
+        <h1>HISTORIAS DE TERROR</h1>
         
-        <div style="border: 1px solid; color: #fafafa; width:500px; height:500px; text-align: center;margin-top: 10px;">
-            <a href="./horror_tale1.html" style="color:#fafafa"> Cuento 1 </a>
-        </div>
+        <div class="container1">
+            
+            <div class = "story-box">
+                <a href="./horror_tale1.html"> Cuento 1 </a>
+            </div>
         
-        <div style="border: 1px solid; color: #fafafa; width:500px; height:500px; text-align: center; margin-top: 20px;">
-            <a href="./horror_tale2.html" style="color:#fafafa"> Cuento 2 </a>        
-        </div>
+            <div class = "story-box">
+                <a href="./horror_tale2.html"> Cuento 2 </a>        
+            </div>
         
-        <div style="border: 1px solid; color: #fafafa; width:500px; height:500px; text-align: center; margin-top: 20px;">
-            <a href="./horror_tale3.html" style="color:#fafafa"> Cuento 3 </a>        
-        </div>
+            <div class = "story-box">
+                <a href="./horror_tale3.html"> Cuento 3 </a>        
+            </div>
         
-        <div style="border: 1px solid; color: #fafafa; width:500px; height:500px; text-align: center; margin-top: 20px">
-            <a href="./horror_tale4.html" style="color:#fafafa"> Cuento 4 </a>    
         </div>
+
+        <div class="container2">
+            
+            <div class = "story-box">
+                <a href="./horror_tale4.html"> Cuento 4 </a>    
+            </div>
         
-        <div style="border: 1px solid; color: #fafafa; width:500px; height:500px; text-align: center; margin-top: 20px">
-            <a href="./horror_tale5.html" style="color:#fafafa"> Cuento 5 </a>   
-        </div>
+            <div class = "story-box">
+                <a href="./horror_tale5.html"> Cuento 5 </a>   
+            </div>
         
-        <div style="border: 1px solid; color: #fafafa; width:500px; height:500px; text-align: center; margin-top: 20px">
-            <a href="./horror_tale6.html" style="color:#fafafa"> Cuento 6 </a>   
+            <div class = "story-box">
+                <a href="./horror_tale6.html"> Cuento 6 </a>   
+            </div>
+        
         </div>
-        <button type="button"> Switch Creepy/cutie </button>
+        <button type="button" class="switcher"> Switch Creepy/cutie </button>
     </main>    
             
     <footer>
-        <div style="width: 100%; height:250px;background-color: #fafafa; color: #181818; border: 2px solid; text-align: center; margin-top: 20px"> 
+        <div class="footer"> 
             FOOTER 
         </div>
     </footer>
-
+    <script src="../scripts/scripts.js"></script>
 </body>
 </html>
