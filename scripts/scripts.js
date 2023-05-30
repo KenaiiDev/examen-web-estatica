@@ -1,4 +1,6 @@
-/*const hero = document.querySelector('.hero');
+/*
+LÓGICA QUE SE ME OCURRIÓ PARA EL CYCLING BANNER
+const hero = document.querySelector('.hero');
 const arrayOfImages = [];
 
 
@@ -12,8 +14,11 @@ setInterval(() => {
         hero.appendChild(img);
     }
     //arrayOfImages.forEach(element => hero.appendChild(element));
-}, 5000);*/
+}, 5000);
 
+*/
+
+/*LÓGICA DEL CYCLING BANNER*/ 
 let index = 0;
 const arrayOfImages = []
 arrayOfImages.push('https://t3.ftcdn.net/jpg/02/26/46/28/360_F_226462884_HCy6r24ne2E4fIyhVcGCT3NYZm4JuT91.jpg')
@@ -32,3 +37,10 @@ function rotate(){
 }
 
 setInterval(rotate, 3*1000);
+
+const audioPlayer = document.getElementById('audio-player');
+const musicButton = document.querySelector('.music-button');
+
+musicButton.addEventListener('click', () =>{
+    audioPlayer.classList.toggle('invisible');
+})

@@ -13,6 +13,8 @@ body{
     background-image: url(https://e0.pxfuel.com/wallpapers/48/233/desktop-wallpaper-very-scary-horror-w12-dark-night-horror.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    width: 100vw;
+    min-height: 100vh;
 }
 
 h1{
@@ -26,14 +28,15 @@ h1{
 }
 
 #subtitle{
-    display:flex;
-    justify-content: center;    
-    align-items: center;
-    flex-wrap: wrap;
     font-family: 'Courier New', Courier, monospace;
     color:#A9A9A9;
     font-weight: bold;
     font-size: 1.5em;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 1em;
+    text-align: center;
 }
 
 #creepybanner{
@@ -49,6 +52,9 @@ p{
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
     font-size: 2em;
+    width: 100%;
+    height: auto;
+    padding: 1em;
 }
 
 .main-logo{
@@ -202,5 +208,11 @@ width:20px;
 
 .rights{
     font-weight: bold;
+}
+
+a{
+    color:#f20d0d;
+    text-align: center;
+    font-family: 'Creepster';
 }
 
