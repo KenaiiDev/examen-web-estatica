@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuento 3</title>
-    <link rel="stylesheet" href="../styles/tales-styles.css">
+    <link rel="stylesheet" href="../../styles/tales-styles.css">
 </head>
 <body>
     <!--el fondo utilizado está sujeto a cambios-->
@@ -18,8 +18,8 @@
 
         <nav>
             <div class = "nav-container"> 
-                <a  class="volver" href="./horror_tale2.html"> <--- Anterior </a>
-                <a  class="avanzar" href="./horror_tale4.html"> Siguiente ---> </a>
+                <a  class="volver" href="horror_tale2.html"> <--- Anterior </a>
+                <a  class="avanzar" href="horror_tale4.html"> Siguiente ---> </a>
             </div>  
         </nav>
     </header>
@@ -29,7 +29,7 @@
         <h1> Ana y la maldición de Villa Oscura </h1>
 
         <div class = "imagen"> 
-            <img src= https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/UUID-cl9eexvrq0098qqow7lhkwpu6/public alt="Aldea abandonada y oscura">
+            <img src= "../../assets-img/horror/Ana.webp" alt="Aldea abandonada y oscura">
         </div> 
         <p> 
             Había una vez un pueblo olvidado en las profundidades del bosque, conocido como Villa Oscura. Sus calles estaban cubiertas de sombras y el silencio aterrador se apoderaba del aire. En este siniestro lugar vivía una niña llamada Ana, una pequeña valiente y temeraria.
@@ -63,15 +63,22 @@
             Y así, en Villa Oscura, reinaron la pesadilla, el horror y el tormento gracias a la valentía de Ana y su pacto con Umbra, demostrando que a veces las fuerzas oscuras son más poderosas que cualquier intento de redención.
         </p>
 
-        <button type="button" class="switcher"> Switch Creepy/cutie </button>
-        
-        <button class="music-button">
-            <img src=https://icons.iconarchive.com/icons/blackvariant/button-ui-system-folders-alt/512/Music-icon.png alt="Music Button">
-        </button>
-        
-        <div id="media-container">
-            <audio id="audio-player" src="../assets/Creepy song 1.mp3" controls></audio>
-        </div>
+        <div class="music">
+            <button class="music-button">
+              <img
+              src=https://icons.iconarchive.com/icons/blackvariant/button-ui-system-folders-alt/512/Music-icon.png
+              alt="Music Button">
+            </button>
+    
+            <div id="media-container">
+              <audio
+                id="audio-player"
+                src="../../assets-img/Creepy song 1.mp3"
+                controls
+              ></audio>
+            </div>
+          </div>
+    
     </main>
     
     <footer>
@@ -96,8 +103,9 @@
         </ul>
 
         <small class="rights"> &copy; 2023 CuentaCuentos. Todos los derechos reservados</small>
+        <small class="rights"> Proyecto realizado por Axel Roitstein y Lucas Villanueva</small>
         </div>
     </footer>
-    <script src="../scripts/scripts.js"></script>
+    <script src="../../scripts/scripts.js"></script>
 </body>
 </html>

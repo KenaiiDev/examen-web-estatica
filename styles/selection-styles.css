@@ -21,6 +21,7 @@ h1{
     color:#fafafa;
     text-align: center;
     font-family: 'Eater', cursive;
+    padding: 0.5em;
 }
 
 #lovecraft{
@@ -126,7 +127,7 @@ p{
     width: 100%; 
     height:250px;
     background-color: #fafafa; 
-    border: 2px solid; 
+    
     text-align: center; 
     margin-top: 20px
 }
@@ -180,6 +181,7 @@ width:20px;
     position: fixed;
     bottom:260px;
     right: 50px;
+    font-family: 'Creepster';
 }
 
 .search{
@@ -208,6 +210,7 @@ width:20px;
 
 .rights{
     font-weight: bold;
+    display:block;
 }
 
 a{

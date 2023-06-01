@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuento 5</title>
-    <link rel="stylesheet" href="../styles/tales-styles.css">
+    <link rel="stylesheet" href="../../styles/tales-styles.css">
 </head>
 <body>
     <!--el fondo utilizado está sujeto a cambios-->
@@ -19,8 +19,8 @@
 
         <nav>
             <div class = "nav-container"> 
-                <a  class="volver" href="./horror_tale4.html"> <--- Anterior </a>
-                <a  class="avanzar" href="./horror_tale6.html"> Siguiente ---> </a>
+                <a  class="volver" href="horror_tale4.html"> <--- Anterior </a>
+                <a  class="avanzar" href="horror_tale6.html"> Siguiente ---> </a>
             </div>  
         </nav>
     </header>
@@ -30,7 +30,7 @@
         <h1> Luna de Pesadria </h1>
 
         <div class = "imagen"> 
-                <img src= https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d5c9ac39-1458-490b-9d13-2614cade7bf2/d2fgek4-fc9971d3-b5f9-4104-b2fb-246cdb5bf250.jpg alt="Luna perturbadora">
+                <img src= "../../assets-img/horror/Luna.webp" alt="Luna perturbadora">
             </div>  
 
         <p> 
@@ -74,15 +74,21 @@
         </p>
 
         
-        <button type="button" class="switcher"> Switch Creepy/cutie </button>
-        
-        <button class="music-button">
-            <img src=https://icons.iconarchive.com/icons/blackvariant/button-ui-system-folders-alt/512/Music-icon.png alt="Music Button">
-        </button>
-        
-        <div id="media-container">
-            <audio id="audio-player" src="../assets/Creepy song 1.mp3" controls></audio>
-        </div>
+        <div class="music">
+            <button class="music-button">
+              <img
+              src=https://icons.iconarchive.com/icons/blackvariant/button-ui-system-folders-alt/512/Music-icon.png
+              alt="Music Button">
+            </button>
+    
+            <div id="media-container">
+              <audio
+                id="audio-player"
+                src="../../assets-img/Creepy song 1.mp3"
+                controls
+              ></audio>
+            </div>
+          </div>
     </main>
     
     <footer>
@@ -107,9 +113,10 @@
         </ul>
 
         <small class="rights"> &copy; 2023 CuentaCuentos. Todos los derechos reservados</small>
+        <small class="rights"> Proyecto realizado por Axel Roitstein y Lucas Villanueva</small>
         </div>
     </footer>
 
-    <script src="../scripts/scripts.js"></script>
+    <script src="../../scripts/scripts.js"></script>
 </body>
 </html>

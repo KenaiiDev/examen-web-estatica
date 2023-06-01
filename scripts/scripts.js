@@ -42,5 +42,6 @@ const audioPlayer = document.getElementById('audio-player');
 const musicButton = document.querySelector('.music-button');
 
 musicButton.addEventListener('click', () =>{
-    audioPlayer.classList.toggle('invisible');
+    audioPlayer.classList.toggle('visible');
 })
+
