@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //get data from local storage
   const prevData = JSON.parse(localStorage.getItem("data"));
   if (prevData) {
-    window.location.href = "categories.html";
+    window.location.href = "/pages/categories.html";
   }
 
   form.addEventListener("submit", (e) => {
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!error) {
       localStorage.setItem("data", JSON.stringify(data));
-      window.location.href = "categories.html";
+      window.location.href = "/pages/categories.html";
     }
   });
 });

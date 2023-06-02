@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categorías</title>
+
+    <link rel="stylesheet" href="../styles/categories.css" />
+  </head>
+  <body>
+    <main>
+      <dialog id="dialog">
+        <h2>DISCLAIMER</h2>
+        <p>Este sitio utiliza audios para mejorar la experiencia pero el navegador se enoja si el usuario no interactua con el sitio antes de reproducir el mismo. Haga click en el siguiente botón para seleccionar la categoría 🤭</p>
+        <button type="button">Okidoki</button>
+      </dialog>
+      <h1>Elige tu categoría</h1>
+      <section class="choose">
+        <a id="atp" href="#">
+          <img src="../assets/images/categories/atp.webp" alt="" />
+        </a>
+        <a id="horror" href="#">
+          <img src="../assets/images/categories/horror.webp" alt="" />
+        </a>
+      </section>
+    </main>
+    <audio src="../assets/music/atp-choose.mp3" id="atp-audio" hidden></audio>
+    <audio
+      src="../assets/music/horror-choose.mp3"
+      id="horror-audio"
+      hidden
+    ></audio>
+    <script src="../scripts/redirectToLogin.js"></script>
+    <script src="../scripts/categories.js"></script>
+  </body>
+</html>
