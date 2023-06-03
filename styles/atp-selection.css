@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-family: 'Nosifer';
+}
+
+header h1 span {
+    font-family: 'Henny Penny';
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: clamp(300px, 100%, 800px);
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+main h1 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: .2em;
+}
+
+main p {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+main p span {
+    display: block;
+    font-style: normal;
+    text-align: right;
+}
+
+main>h2 {
+    margin: .6em 0;
+    text-align: center;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+main section a {
+    width: 70%;
+    position: relative;
+    margin: .4em 0;
+    text-decoration: none;
+    color: #000;
+    transition: transform .1s ease-in;
+}
+
+main section a:hover {
+    transform: scale(1.1)
+}
+
+main section a:active {
+    transform: scale(0.95)
+}
+
+a>img {
+    width: 100%;
+
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: #fafafa;
+    text-align: center;
+    margin-top: 20px
+}
+
+.footer .logo1 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 1.5em;
+    position: relative;
+    top: 0;
+    color: #f20d0d;
+}
+
+.footer .logo2 {
+    font-family: 'Nosifer';
+    font-size: 1.5em;
+    position: relative;
+    top: 0;
+    color: #181818;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    list-style-type: none;
+}
+
+.nav-footer .nav-list li a {
+    color: #181818;
+    text-decoration: none;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap: 1em;
+    list-style-type: none;
+}
+
+.icons li img {
+    height: 20px;
+    width: 20px;
+}
+
+.switcher {
+    position: fixed;
+    bottom: 260px;
+    right: 50px;
+}
+
+.search {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.logo1 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 3em;
+    position: relative;
+    top: 40%;
+    color: #f20d0d;
+    z-index: 101;
+}
+
+.logo2 {
+    font-family: 'Nosifer';
+    font-size: 3em;
+    position: relative;
+    top: 40%;
+    color: #fafafa;
+    z-index: 101;
+}
+
+.rights {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 760px) {
+    main section {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main section a {
+        width: clamp(200px, 30%, 350px);
+    }
+}

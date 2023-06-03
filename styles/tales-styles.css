@@ -3,111 +3,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
-*{
+
+* {
     box-sizing: border-box;
-    margin : 0;
-    padding : 0;
+    margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     background-image: url(https://e0.pxfuel.com/wallpapers/48/233/desktop-wallpaper-very-scary-horror-w12-dark-night-horror.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-<<<<<<< HEAD
-    
-=======
->>>>>>> temporal
+    background-size: cover;
 }
 
-main p{
-    color:#fafafa;
+main p {
+    color: #fafafa;
     text-align: center;
     padding: 10px;
     font-weight: bold;
-<<<<<<< HEAD
-    padding: 1em;
-    font-size: 1.5em;
-    font-family: 'Frijole', cursive;
-    animation: fadeIn 5s;
-}
-
-@keyframes fadeIn{
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-h1{
-    color:#fafafa;
-    text-align: center;
-    padding:0.5em;
-    font-family: 'Eater', cursive;
-    animation: fadeIn 5s;
-=======
     margin-right: 2em;
     font-size: 1.5em;
     font-family: 'Frijole', cursive;
 }
 
-h1{
-    color:#fafafa;
+h1 {
+    color: #fafafa;
     text-align: center;
     margin-right: 1em;
     font-family: 'Eater', cursive;
->>>>>>> temporal
 }
 
-#creepybanner{
-    width:100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
+#creepybanner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.main-logo{
+.main-logo {
     text-decoration: none;
     z-index: 100;
 }
-.hero{
-    position:relative;
-    width: 100%; 
-    height:250px; 
-    color: #fafafa; 
-<<<<<<< HEAD
-    border: none; 
-=======
-    border: 2px solid; 
->>>>>>> temporal
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    color: #fafafa;
+    border: 2px solid;
     text-align: center;
 }
 
 
-.imagen img{
-<<<<<<< HEAD
-    /*
-=======
->>>>>>> temporal
-    Width:700px; 
+.imagen img {
+    Width: 700px;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin-left: 28%;
-<<<<<<< HEAD
-    */
-
-    Width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-position: center;
-    animation: fadeIn 5s;
-=======
->>>>>>> temporal
 }
 
-.nav-list{
-    display:flex;
+.nav-list {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -115,31 +74,31 @@ h1{
     list-style-type: none;
 }
 
-.nav-footer .nav-list li a{
-    color:#181818;
+.nav-footer .nav-list li a {
+    color: #181818;
     text-decoration: none;
 }
 
-.volver{
-    position:relative;
+.volver {
+    position: relative;
     left: 42%;
 }
 
-.icons{
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 2em;
-gap: 1em;
-list-style-type: none;
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap: 1em;
+    list-style-type: none;
 }
 
-.icons li img{
-height:20px;
-width:20px;
+.icons li img {
+    height: 20px;
+    width: 20px;
 }
 
-.logo1{
+.logo1 {
     font-family: 'Henny Penny', cursive;
     font-size: 3em;
     position: relative;
@@ -148,7 +107,7 @@ width:20px;
     z-index: 101;
 }
 
-.logo2{
+.logo2 {
     font-family: 'Nosifer';
     font-size: 3em;
     position: relative;
@@ -157,75 +116,57 @@ width:20px;
     z-index: 101;
 }
 
-.rights{
+.rights {
     font-weight: bold;
-<<<<<<< HEAD
-    display:block;
-=======
 }
 
 
-.switcher{
+.switcher {
     position: fixed;
-    bottom:280px;
+    bottom: 280px;
     right: 50px;
 }
 
-.music-button{
+.music-button {
     position: fixed;
-    bottom:205px;
+    bottom: 205px;
     right: 50px;
     font-weight: bold;
     background-color: transparent;
     border: none;
 }
 
-.music-button img{
+.music-button img {
     width: 5em;
     height: 5em;
->>>>>>> temporal
 }
 
-.search{
-    position:absolute;
+.search {
+    position: absolute;
     right: 0;
     bottom: 0;
 }
 
-<<<<<<< HEAD
-nav{
-    position:sticky;
-    top:0;
-    z-index: 1001;
+.nav-container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #A9A9A9;
+    border: 2px solid;
+    text-align: center;
+    font-weight: bold;
 }
-.nav-container{
-    position:relative;
-    position: -webkit-sticky;
-=======
-.nav-container{
-    position:relative;
->>>>>>> temporal
-    width: 100%; 
-    height:50px; 
-    background-color: #A9A9A9; 
-    border: 2px solid; 
-    text-align: center; 
-    font-weight: bold;  
-}
-<<<<<<< HEAD
 
-=======
->>>>>>> temporal
-.footer{
-    width: 100%; 
-    height:250px;
-    background-color: #fafafa; 
-    border: none; 
-    text-align: center; 
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: #fafafa;
+    border: none;
+    text-align: center;
     margin-top: 20px;
 }
 
-.footer .logo1{
+.footer .logo1 {
     font-family: 'Henny Penny', cursive;
     font-size: 1.5em;
     position: relative;
@@ -233,45 +174,42 @@ nav{
     color: #f20d0d;
 }
 
-.footer .logo2{
+.footer .logo2 {
     font-family: 'Nosifer';
     font-size: 1.5em;
     position: relative;
     top: 0;
     color: #181818;
 }
-<<<<<<< HEAD
 
-=======
-.media-container{
+.media-container {
     position: fixed;
-    bottom:150px;
+    bottom: 150px;
     right: 50px;
 }
->>>>>>> temporal
 
-.song{
-    color:#fafafa;
+.song {
+    color: #fafafa;
     text-decoration: none;
 
 }
 
-.playlist{
+.playlist {
     list-style-type: none;
-    padding:0;
-    position:fixed;
-    bottom:210px;
+    padding: 0;
+    position: fixed;
+    bottom: 210px;
     right: 50px;
 }
 
-.volver{
+.volver {
     position: absolute;
     left: 0;
     font-family: 'Creepster';
     font-size: 2em;
 }
 
-.avanzar{
+.avanzar {
     position: absolute;
     right: 0;
     font-family: 'Creepster';
@@ -279,12 +217,11 @@ nav{
 }
 
 
-a{
-    color:#f20d0d;
+a {
+    color: #f20d0d;
     text-align: center;
     font-family: 'Creepster';
 }
-<<<<<<< HEAD
 
 /* Botón de música y audio player */
 .music {
@@ -324,5 +261,3 @@ a{
         right: 5px;
     }
 }
-=======
->>>>>>> temporal

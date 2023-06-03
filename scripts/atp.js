@@ -1,6 +1,6 @@
 const data = JSON.parse(localStorage.getItem("data"));
 if (!data) {
-  window.location.href = "../index.html";
+  window.location.href = "../../index.html";
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   logoutLink.addEventListener("click", () => {
     localStorage.removeItem("data");
-    window.location.href = "../index.html";
+    window.location.href = "../../index.html";
   });
 
   const audioPlayer = document.getElementById("audio-player");
