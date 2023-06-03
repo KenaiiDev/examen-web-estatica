@@ -13,10 +13,7 @@ body{
     background-image: url(https://e0.pxfuel.com/wallpapers/48/233/desktop-wallpaper-very-scary-horror-w12-dark-night-horror.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-<<<<<<< HEAD
     
-=======
->>>>>>> temporal
 }
 
 main p{
@@ -24,7 +21,6 @@ main p{
     text-align: center;
     padding: 10px;
     font-weight: bold;
-<<<<<<< HEAD
     padding: 1em;
     font-size: 1.5em;
     font-family: 'Frijole', cursive;
@@ -41,7 +37,6 @@ h1{
     padding:0.5em;
     font-family: 'Eater', cursive;
     animation: fadeIn 5s;
-=======
     margin-right: 2em;
     font-size: 1.5em;
     font-family: 'Frijole', cursive;
@@ -52,7 +47,6 @@ h1{
     text-align: center;
     margin-right: 1em;
     font-family: 'Eater', cursive;
->>>>>>> temporal
 }
 
 #creepybanner{
@@ -72,27 +66,19 @@ h1{
     width: 100%; 
     height:250px; 
     color: #fafafa; 
-<<<<<<< HEAD
     border: none; 
-=======
     border: 2px solid; 
->>>>>>> temporal
     text-align: center;
 }
 
-
 .imagen img{
-<<<<<<< HEAD
     /*
-=======
->>>>>>> temporal
     Width:700px; 
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin-left: 28%;
-<<<<<<< HEAD
     */
 
     Width: 100%;
@@ -102,8 +88,6 @@ h1{
     position: relative;
     background-position: center;
     animation: fadeIn 5s;
-=======
->>>>>>> temporal
 }
 
 .nav-list{
@@ -159,9 +143,7 @@ width:20px;
 
 .rights{
     font-weight: bold;
-<<<<<<< HEAD
     display:block;
-=======
 }
 
 
@@ -171,28 +153,12 @@ width:20px;
     right: 50px;
 }
 
-.music-button{
-    position: fixed;
-    bottom:205px;
-    right: 50px;
-    font-weight: bold;
-    background-color: transparent;
-    border: none;
-}
-
-.music-button img{
-    width: 5em;
-    height: 5em;
->>>>>>> temporal
-}
-
 .search{
     position:absolute;
     right: 0;
     bottom: 0;
 }
 
-<<<<<<< HEAD
 nav{
     position:sticky;
     top:0;
@@ -201,10 +167,10 @@ nav{
 .nav-container{
     position:relative;
     position: -webkit-sticky;
-=======
+
+}
 .nav-container{
     position:relative;
->>>>>>> temporal
     width: 100%; 
     height:50px; 
     background-color: #A9A9A9; 
@@ -212,10 +178,6 @@ nav{
     text-align: center; 
     font-weight: bold;  
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> temporal
 .footer{
     width: 100%; 
     height:250px;
@@ -240,15 +202,6 @@ nav{
     top: 0;
     color: #181818;
 }
-<<<<<<< HEAD
-
-=======
-.media-container{
-    position: fixed;
-    bottom:150px;
-    right: 50px;
-}
->>>>>>> temporal
 
 .song{
     color:#fafafa;
@@ -284,7 +237,6 @@ a{
     text-align: center;
     font-family: 'Creepster';
 }
-<<<<<<< HEAD
 
 /* Botón de música y audio player */
 .music {
@@ -324,5 +276,3 @@ a{
         right: 5px;
     }
 }
-=======
->>>>>>> temporal
