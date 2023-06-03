@@ -14,6 +14,7 @@ body {
     background-image: url(https://e0.pxfuel.com/wallpapers/48/233/desktop-wallpaper-very-scary-horror-w12-dark-night-horror.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 main p {
@@ -21,6 +22,28 @@ main p {
     text-align: center;
     padding: 10px;
     font-weight: bold;
+    padding: 1em;
+    font-size: 1.5em;
+    font-family: 'Frijole', cursive;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: #fafafa;
+    text-align: center;
+    padding: 0.5em;
+    font-family: 'Eater', cursive;
+    animation: fadeIn 5s;
     margin-right: 2em;
     font-size: 1.5em;
     font-family: 'Frijole', cursive;
@@ -51,18 +74,28 @@ h1 {
     width: 100%;
     height: 250px;
     color: #fafafa;
+    border: none;
     border: 2px solid;
     text-align: center;
 }
 
-
 .imagen img {
-    Width: 700px;
+    /*
+    Width:700px; 
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin-left: 28%;
+    */
+
+    Width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    animation: fadeIn 5s;
 }
 
 .nav-list {
@@ -118,6 +151,7 @@ h1 {
 
 .rights {
     font-weight: bold;
+    display: block;
 }
 
 
@@ -127,24 +161,22 @@ h1 {
     right: 50px;
 }
 
-.music-button {
-    position: fixed;
-    bottom: 205px;
-    right: 50px;
-    font-weight: bold;
-    background-color: transparent;
-    border: none;
-}
-
-.music-button img {
-    width: 5em;
-    height: 5em;
-}
-
 .search {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.nav-container {
+    position: relative;
+    position: -webkit-sticky;
+
 }
 
 .nav-container {
@@ -180,12 +212,6 @@ h1 {
     position: relative;
     top: 0;
     color: #181818;
-}
-
-.media-container {
-    position: fixed;
-    bottom: 150px;
-    right: 50px;
 }
 
 .song {
